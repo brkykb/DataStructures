@@ -24,9 +24,10 @@ int main(void){
 
 void menu(void){
 
-    int a,deneme,sifre=1234,secenek,name[20];
+    int a,deneme,sifre=1234,secenek;
+    char name[20];
     
-    printf("Ogrenci Numarasi, İsim ve Yasini yazan ve sayan program");
+    printf("Ogrenci Numarasi, İsim ve Yasini yazan ve sayan program\n");
 
     while(1){
         printf("1.Yonetici girisi\n2.Ogrenci girisi\n3.Cikis\n");       //secim kismi
