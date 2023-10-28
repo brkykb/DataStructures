@@ -24,7 +24,8 @@ int main(void){
 
 void menu(void){
 
-    int a,deneme,sifre=1234,secenek,name[20];
+    int a,deneme,sifre=1234,secenek;
+    char name[20];
     
     printf("Ogrenci Numarasi, İsim ve Yasini yazan ve sayan program\n");
 
