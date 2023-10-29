@@ -92,7 +92,7 @@ void program2(placement *head){             //siralama fonksiyonu
                 temp=temp->next;
             }
         }
-        i++;
+        
         temp=head;
     }
     list(head);
