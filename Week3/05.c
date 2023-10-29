@@ -114,10 +114,10 @@ void search(char name[20]){                 //ogrenci ismi ile listede arama yap
         x= strcmp(temp->next->stdname,name);          // karsilastirma fonksiyonu
         if(x==0){
             printf("Ogrenci Bilgileri\nNumarasi:%d\nAdi:%s\nYasi:%d\n",temp->next->stdnum,temp->next->stdname,temp->next->stdage);
-            
-           delete=temp->next;                   //dugum silme islemi 
-           temp->next=temp->next->next;
-           free(delete);
+            temp=temp->next;
+            delete=temp->next;                   //dugum silme islemi 
+            temp->next=temp->next->next;
+            free(delete);
             
         }
         else
